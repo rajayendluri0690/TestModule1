@@ -15,4 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "TestModule"
 include(":app")
+include(":ModuleBottomNav")
+project(":ModuleBottomNav").projectDir = File("$rootDir/ModuleBottomNav")
 include(":resourcemodule")
